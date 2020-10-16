@@ -15,11 +15,17 @@ const Row = styled.View`
      width:100%;
      padding:0 11px;
      align-items:center;
+     margin-bottom:10px;
 `
 const Input = styled.TextInput`
- height:50px;
- width:100%;
+ height:40px;
+ width:87%;
+ border-radius:30px;
  padding:0 9px;
+ padding-left:20px;
+ border-color: #f0f0f0;
+ border-width:1px;
+ margin-left:10px;
 `
 
 const Divider = styled.View`
